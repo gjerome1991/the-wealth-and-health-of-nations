@@ -1,4 +1,4 @@
-//Script edited by Geoffrey Kip trying it by myself
+
 function updateGraph() {
 
     var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5};
@@ -100,7 +100,7 @@ function updateGraph() {
 	    // is the relevant data (in this case either income, population or life expectancy)
 	    //console.log("d");
 	    //console.log(d);
-	    //here we return the year (so we compare with the year to find the index)
+	    //here we return the year (so we compare with the year to find the index) 
 	    return d[0];
 	});
 
@@ -375,3 +375,4 @@ function updateGraph() {
 
     });
 }
+    
